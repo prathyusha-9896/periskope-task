@@ -1,5 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# periskope_task
 
+## Introduction
+**periskope_task** is a React-based web application that uses mock data to demonstrate user group management functionality. The application features a dynamic user interface designed with TailwindCSS and various React components, including a customizable footer, a group table with search and filter capabilities, and a fixed sidebar.
+
+## Features
+- Search and filter user groups.
+- Fixed footer with pagination controls.
+- Dynamic group table with mock data.
+- Adjustable sidebar navigation.
+
+## Technologies Used
+- React.js
+- TailwindCSS
+- Supabase
+- React Icons
+- Next Image
+
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 ## Getting Started
 
 First, run the development server:
