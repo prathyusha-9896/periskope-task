@@ -1,4 +1,5 @@
 # periskope_task
+# Live ** https://periskope-task-vtjx.vercel.app/
 
 ## Introduction
 **periskope_task** is a React-based web application that uses mock data to demonstrate user group management functionality. The application features a dynamic user interface designed with TailwindCSS and various React components, including a customizable footer, a group table with search and filter capabilities, and a fixed sidebar.
@@ -15,6 +16,9 @@
 - Supabase
 - React Icons
 - Next Image
+
+## .env add Supabase KEY
+NEXT_PUBLIC_SUPABASE_KEY: YOUR_SUPABASE_KEY
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
