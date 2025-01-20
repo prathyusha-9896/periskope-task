@@ -20,7 +20,7 @@ const SidePanel: React.FC<SidePanelProps> = ({ group }) => {
   const [activeTab, setActiveTab] = useState("overview");
   if (!group) return null;
 
-  // utils/time.ts
+ 
   const getRelativeTime = (dateString: string): string => {
     const date = new Date(dateString);
     const now = new Date();

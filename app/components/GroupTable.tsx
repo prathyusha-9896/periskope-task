@@ -1,15 +1,13 @@
-'use client'
+'use client' //React components that rely on browser-specific APIs (e.g., useState, useEffect, useRef, event handlers like onClick) need to be executed in the browser. 'use client' tells Next.js that the component should not be pre-rendered on the server.
 import React, { useState, useEffect } from 'react';
-import { createClient } from '@supabase/supabase-js';
+import { supabase } from '../lib/supabase';
 import { FaSearch, FaFilter, FaInbox, FaCog, FaUserCircle } from 'react-icons/fa';
+import { MdGroup } from 'react-icons/md';
 import SidePanel from './SidePanel';
 import Header from './Header';
-import { MdGroup } from 'react-icons/md';
 import Footer from './Footer';
 
-const supabaseUrl = 'https://vrrfvovzjdjbtmaxhqqy.supabase.co';
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_KEY!;
-const supabase = createClient(supabaseUrl, supabaseKey);
+
 
 interface Group {
   id: number;
